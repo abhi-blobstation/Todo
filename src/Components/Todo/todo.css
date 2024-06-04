@@ -1,0 +1,41 @@
+.todo-container {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+.todo-main-wrapper {
+  width: 500px;
+  height: 500px;
+  background-color: white;
+
+  overflow: hidden;
+}
+
+.todo-input {
+  outline: none;
+  padding: 12px 15px;
+  border: 2px solid rgba(0, 0, 0, 0.171);
+  font-size: 14px;
+  font-weight: 600;
+}
+.todo-input {
+  flex: 1;
+}
+
+.add-task-btn {
+  background-color: dodgerblue;
+  border: none;
+  color: white;
+  padding: 12px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.todo-list-container {
+  flex-direction: column;
+  overflow-y: scroll;
+  padding-bottom: 3rem;
+  max-height: 100%;
+}

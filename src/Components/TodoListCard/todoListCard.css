@@ -1,0 +1,10 @@
+.todo-list-card{
+    background-color: rgb(248, 247, 247);
+    display: flex;
+    align-items: center;
+}  
+    
+.todo-text{
+    word-break: break-word;
+    flex: 1;
+}
